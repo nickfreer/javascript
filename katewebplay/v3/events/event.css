@@ -1,0 +1,114 @@
+table{
+    width: 100%;
+}
+table.cal{
+    /* border: 2px solid darkgreen; */
+    /* height: 30px; */
+    /* width: 15px; */
+    padding: 0px;
+    margin: 0px;
+    background: green;
+}
+th, td{
+    height: 70px;
+    width: 70px;
+    padding: 0px;
+    margin: 0px;
+    background: aqua;
+    border 1px solid black;
+    color: white;
+    /* align-items: center; */
+    text-align: center;
+}
+td{
+    font-size: 25;
+    /* border: 2px solid pink; */
+}
+
+td.cal:hover {
+    background: fff;
+    color: aqua;
+
+}
+
+
+
+input.cal {
+    background: red;
+    color:white;
+    width: 100%;
+    height: 100%;
+}
+input.cal:hover{
+    background: pink;
+    color:black;
+}
+input.event{
+    background: green;
+    width: 100%;
+    height: 100%;
+    font-size: 25;
+    color: white;
+}
+input.event:hover{
+    background: #fff;
+    color: green;
+}
+
+td.today{
+    background: orange;
+}
+td.blank{
+    background: lightgrey;
+}
+td.head {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: black;
+    height: auto;
+    width: 80px;
+}
+td.mid{
+    width: auto;
+}
+.info {
+    display: none;
+}
+h3{
+    text-align: center;
+}
+div{
+    width: fit-content;
+}
+#today {
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#todayBox{
+    text-align: right;
+}
+ span{
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid black;
+    font-size: large;
+}
+#mon {
+;
+}
+#year{
+    width:205px;
+    background: violet;
+}
+
+div.popper{
+    position: absolute;
+    left: 50;
+    top: 30;
+    width: 200px;
+    height: 150px;
+    background: yellow;
+    display: none;
+}

@@ -1,0 +1,107 @@
+body.main {
+    background-color: #CCCCCC;
+    align-items: center;
+    text-align: center;
+}
+
+div.main{
+    text-align: center;
+    border: 10px solid black;
+    /* background-color: aqua; */
+    height: 800px;
+}
+
+div.pic{
+    height: 670px; */
+    width: fit-content;
+    float:left;
+    border: 3px solid red;
+}
+
+div.thumb{
+    height: 670px;
+    width: fit-content;
+    float:left;
+    border: 3px solid red;
+}
+
+input.thumb, input.play{
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    margin 5px;
+    opacity:1;
+}
+
+input.thumb:hover{
+    background-color: #666685;
+}
+input.activethumb{
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    margin 5px;
+    opacity:0.4;
+    background: #222;
+}
+
+ul{
+    display:flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: min-content;
+    padding: 0px;
+}
+ul.play{
+    column-count: 2;
+    column-gap: 0;
+    border: 2px solid black
+}
+input.play{
+    display: inline-block;
+}
+
+div.pic h2, div.thumb h2 {
+    height: 30px;;
+    padding: 0px;
+    margin: 10px 0px;
+}
+div.pic h3, div.thumb h3 {
+    height: 30px;;
+    padding: 0px;
+    margin: 10px 0px;
+    width: auto;
+}
+
+td{
+    text-align: center;
+    margin 0px;
+    padding: 0px;
+    border: 2px solid green;
+
+}
+
+td.pic {
+    width: 85%;
+    max-height: 700px;
+}
+img.big{
+    border: 2px solid red;
+    width 100%
+    height: 600px;
+    padding: 5px;
+    margin 5px;
+}
+
+td.thumb {
+    max-height: 700px;
+    width: 130px;
+    padding: 0px;
+    margin: 0px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid blue;
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p id='p1'></p>
+        <p id='p2'></p>
+        <p id='p3'>value not set</p>
+        <p id='p4'></p>
+
+        <input type="number" id="firstNumber"> +
+        <input type="number" id="secondtNumber">
+        <p id= "answer">0</p>
+        <button type="button" onclick="addnumbers();">calculate</button>
+            
+        <script>
+            var b=4;
+            var a=3;
+            var sum =b +a;
+            document.getElementById('p1').innerHTML=sum;
+
+            var items = ["first","second","third"];
+            document.getElementById('p2').innerHTML=items[2];
+
+
+            var value = 4;
+            if(value<5){
+                document.getElementById('p3').innerHTML=value;
+            }
+
+            
+            var array = ["one","two","three","four"];
+            var output = "";
+            for (i = 0; i < array.length; i++) {
+                output += "This is item " + array[i] + "</br>";
+            }
+            document.getElementById('p4').innerHTML = output;
+        </script>
+        <script src="libfile.js"></script>

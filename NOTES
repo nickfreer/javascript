@@ -1,0 +1,109 @@
+functions:
+
+regular:
+
+function name (arg,arg) {
+	Do Stuff;
+	return val;
+}
+
+
+???:
+
+const name = function(arg,arg) {
+	Do Stuff;
+	return val;
+}
+
+
+arrow - NOTE: 'this' keyword is not set when using them
+
+const name = (arg,arg) => {
+	Do stuff;
+	return val;
+}
+
+1 arg , just return a val (using a calc or something)
+const name = arg => val;
+
+
+
+
+CALLBACKS
+people.forEach(person => {
+  // create html template for each person
+  html += `<li style="color: purple">${person}</li>`;
+}
+
+
+
+OBJECTS don't use arrow fns for methods if you want to use 'this'
+shorthand for methods see logblogs
+
+let user = {
+	name: 'fred',
+	age: 22,
+	location: 'london'
+	login: function() {
+		console.log('user logged in');
+	},
+	logBlogs(){
+	    // access the blogs here
+	    // console.log(this);
+	    console.log('this user has written these blogs:');
+	    this.blogs.forEach(blog => {
+	      console.log(blog);
+	    });
+	}
+}
+
+
+
+
+((((MATH Object))))
+((((DATE Object))))
+
+
+Queryselector - 
+document.Queryselector('p')   - a tag type
+document.Queryselector('.name')   - . indicates its a class
+document.querySelector('div.error'); - class error in a div  like this one: <div class="error">this is another eror message</div>
+
+document.querySelectorAll('p') - list of all <p> tags
+
+get a selctor from web page by right click in elements and copy -> selector
+
+CSS:
+works top to bottom. So override by purtting lower down
+
+Selector {declaration}
+selector {
+	property:value;
+	property:value;
+}
+class use multiple times on a page
+id on;y 1 per page
+
+Styling:
+inline - on each tag
+	eg <div id="fred" style="color:red; font-size: 12px;"
+Embeded - single page, in style tags in the head
+	eg. <head>
+			<Style>
+				p{
+					font-size: 10px;
+				}
+			</style>
+		</head>
+external - sperate stylesheet
+declared in the head
+<head>
+	<link rel="stylesheet" type="text/css" href="css/syntax.css"
+</head>
+
+CSS cascade, so override stylesheet with embedded styles AFTER the CSS ref declaration
+
+cascade / specific id - class - tag
+
+
+

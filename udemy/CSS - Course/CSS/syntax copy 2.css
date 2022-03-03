@@ -1,0 +1,21 @@
+p{
+    color: blue;
+}
+h2{
+    font-size: 24px;
+    color: green;
+}
+
+#content-header{
+    font-size: 18px;
+    color: red;
+}
+
+span{
+    display: block;
+    color: purple;
+}
+
+.deck{
+    color: orange;
+}

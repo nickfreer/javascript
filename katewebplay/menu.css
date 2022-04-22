@@ -1,0 +1,54 @@
+
+.menu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 200;
+    /* background: green; */
+    width: 80px;
+    height: 90px;
+    z-index: 200;
+    /* height: auto; */
+    /* width: 10px; */
+    padding: 0px;
+    margin: 0px;
+    transition: 1s;
+    overflow: hidden;
+    background: #666685;
+
+}
+
+.menu:hover{
+    /* background: red; */
+    width: 150px;
+    height: 700;
+
+}
+
+.menu a{
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    /* border: #CCCCCC solid 2px; */
+    background: #666685;
+    /* text-align: left; */
+    height: 30px;
+    
+}
+.menu a:link, .menu a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    background: white;
+    color: #666685;
+    /* text-decoration: overline underline; */
+    font-weight: bolder;
+}
+
+.menu a:active {
+    text-decoration: none;
+    color: white;
+}

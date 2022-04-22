@@ -1,0 +1,170 @@
+.wrapper{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+}
+div.cal{
+    align-self: center;
+    /* background-color: blue; */
+    display: inline-block;
+}
+
+th, td{
+    height: 70px;
+    width: 70px;
+    padding: 0px;
+    margin: 0px;
+    background: aqua;
+    /* border: 1px solid black; */
+    color: white;
+    /* align-items: center; */
+    text-align: center;
+}
+td{
+    font-size: 25;
+    /* border: 2px solid pink; */
+}
+th{
+    background: #f00d;
+    color: #fff;
+}
+
+th:hover {
+    background: #fff;
+    color: #f00;
+    cursor: pointer;
+    /* cursor: none; */
+}
+td:hover{
+    cursor: default;
+}
+/* td.number:hover{
+    color: aqua;
+    background: #fff;
+} */
+td.today{
+    background: orange;
+}
+td.blank{
+    background: lightgrey;
+}
+td.head {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: black;
+    height: auto;
+    width: 80px;
+}
+#dateBox {
+    width: 150px;
+    padding-bottom: 5px;
+}
+td.event {
+    background: green;
+}
+td.event:hover{
+    background: #fff;
+    color: green;
+    cursor: pointer;
+}
+td.mid{
+    width: auto;
+}
+/* .info { */
+    /* display: none; */
+/* } */
+
+h3{
+    text-align: center;
+}
+div{
+    width: fit-content;
+}
+input {
+    background: violet;
+    color: white;
+    width: 30px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+input:hover {
+    background: white;
+    color: violet;
+    cursor: pointer;
+}
+input.play{
+    width: auto;
+    height: auto;
+}
+#today {
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#todayBox{
+    text-align: right;
+}
+ span{
+    padding: 5px;
+    border: 2px solid black;
+    font-size: large;
+}
+#mon {
+    background: pink;
+    width: 100px;
+    max-width: 100px;
+}
+#year{
+    width: 205px;
+    background: pink;
+}
+
+div.popper{
+    position: absolute;
+    left: 50;
+    top: 30;
+    width: 200px;
+    height: 150px;
+    background: yellow;
+    display: none;
+}
+
+.nogo {
+    background: darkgray;
+    color:gray;
+}
+
+.nogo:hover {
+    background: darkgray;
+    color:gray;
+    cursor: default;
+}
+
+ .eventsList,.upcoming {
+    background: lightgreen;
+    margin: 0px;
+    padding: 0px 20px;
+    width: 100%;
+
+ }
+
+.eventsList{
+    height: 400px;
+    overflow-x: hidden;
+    
+    /* border: solid green 1px; */
+}
+
+.upcoming {
+    position: sticky;
+    top: 0;
+    border: solid green 1px;
+}
+
+.theEvent{
+    background: darkgreen;
+    color: white;
+}

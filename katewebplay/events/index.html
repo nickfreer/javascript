@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kates Event List</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="StyleSheet" href="/menu.css" type="text/css">
+    <link rel="StyleSheet" href="/dropdown.css" type="text/css">
+    <link rel="StyleSheet" href="events.css" type="text/css">
+
+    <script src="https://kit.fontawesome.com/156a0b90df.js" crossorigin="anonymous"></script>
+    <script src="/menu.js"></script>
+    <script src="/dropdown.js"></script>
+    <script src="events.js"></script>
+</head>
+<body class="main" onload="main()">
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        </div> 
+      </div>
+      
+
+    <!-- <table> -->
+		<!-- <tr> -->
+			<!-- <td> -->
+			
+				
+			<!-- </td> -->
+			<!-- <td class="main"> -->
+                <div class="menu">
+                    <a href="">  <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+<div class="wrapper">
+    <div class="cal">
+        
+        <table class="controls">
+            <tr>
+                             
+                <td class="head">
+                    <!-- <span class="info" id="monNum">0</span> -->
+                    <!-- <span class="info" id="startDay">MON</span> -->
+                </td>
+                <td  class="head">
+                        <input id="backYear" type="button" value="<<" onclick="nextDate(0,-1)">
+                        <input id="backMon" type="button" value="<" onclick="nextDate(-1,0)"">
+                    </td>
+                    <td id="dateBox" class="head">
+                        <span id="mon">MONTH</span>
+                        <span id="year">YEAR</span>
+                    </td>
+                    <td class="head">
+                        <input id="forYear" type="button" value=">" onclick="nextDate(1,0)"">
+                        <input id="forMon" type="button" value=">>" onclick="nextDate(0,1)"">
+                </td>
+                <td id="todayBox" class="head">
+                    <input id="today" type="button" value="TODAY" onclick="calendar()">
+                </td>
+            </tr>
+        </table>
+        <table class="cal">
+
+        </table>
+    </div>
+    </div>
+    <div class="upcoming">
+        <h1>Up Coming Events</h1>
+    </div>
+    <div class="eventsList">
+    </div>
+
+    <!-- </td></tr></table> -->
+    <div class="popper" onclick="popoff(event)">ITs Me</div>
+
+
+
+
+    <!-- <div><input class="play" type="month" value="2022-01"></div>
+    <h3>&deg C</h3> -->
+</body>
+</html>

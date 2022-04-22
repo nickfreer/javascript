@@ -85,4 +85,3 @@ function showpic(e) {
     // menu();
  }
 
- 
